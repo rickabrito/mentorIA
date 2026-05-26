@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/cefis-api/(.*)", "destination": "https://cefis.com.br/$1" },
+    { "source": "/cefis-v3/(.*)", "destination": "https://api-v3.cefis.com.br/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
